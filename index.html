@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col">
                 <div class="outputContainer">
-                    <div type="text" class="text-end" name="screen" id="screen" style="font-size: 30px;" > </div>
+                    <div type="text" class="text-end" name="calccalcScreen" id="calScreen" style="font-size: 30px;" > </div>
                 </div>
             </div>
         </div>
@@ -110,10 +110,10 @@
                 <button type="button" class="btn btn-light">2<sup>nd</sup></button>
             </div> 
             <div class="col">
-                <button type="button" class="btn btn-light" id="mathPI" onclick="screen.innerHTML+='π'">π</button>
+                <button type="button" class="btn btn-light" id="mathPI" onclick="calScreen.innerHTML+='π'">π</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="mathE" onclick="screen.innerHTML+='e'">e</button>
+                <button type="button" class="btn btn-light" id="mathE" onclick="calScreen.innerHTML+='e'">e</button>
             </div>
             <div class="col">
                 <button type="button" class="btn btn-light" onclick="clrscr()">C</button>
@@ -128,10 +128,10 @@
 
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-light" id="sqrt" onclick="screen.innerHTML+='^2'">x<sup>2</sup></button>
+                <button type="button" class="btn btn-light" id="sqrt" onclick="calScreen.innerHTML+='^2'">x<sup>2</sup></button>
             </div> 
             <div class="col">
-                <button type="button" class="btn btn-light" id="invbtn" onclick="screen.innerHTML+='1&div;'">1/x</button>
+                <button type="button" class="btn btn-light" id="invbtn" onclick="calScreen.innerHTML+='1&div;'">1/x</button>
             </div>
             <div class="col">
                 <button type="button" class="btn btn-light" id="absbtn" onclick="abs()">|x|</button>
@@ -140,7 +140,7 @@
                 <button type="button" class="btn btn-light" onclick="exp()">exp</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="modbtn" onclick="screen.innerHTML+='%'">mod</button>
+                <button type="button" class="btn btn-light" id="modbtn" onclick="calScreen.innerHTML+='%'">mod</button>
             </div>
         </div>
 
@@ -151,16 +151,16 @@
                 <button type="button" class="btn btn-light" id="sqrt" onclick="squareRoot()"><sup>2</sup>&radic;<span style="text-decoration:overline">x</span></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" onclick="screen.innerHTML+='('">(</button>
+                <button type="button" class="btn btn-light" onclick="calScreen.innerHTML+='('">(</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" onclick="screen.innerHTML+=')'">)</button>
+                <button type="button" class="btn btn-light" onclick="calScreen.innerHTML+=')'">)</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="factbtn" onclick="screen.innerHTML+='!'">n!</button>
+                <button type="button" class="btn btn-light" id="factbtn" onclick="calScreen.innerHTML+='!'">n!</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" onclick="screen.innerHTML+='&div;'">&div;</button>
+                <button type="button" class="btn btn-light" onclick="calScreen.innerHTML+='&div;'">&div;</button>
             </div>
         </div>
 
@@ -168,19 +168,19 @@
         <!-- x suqare y  7 8 9 * -->
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-light" id="powbtn" onclick="screen.innerHTML+='^'">x<sup>y</sup></button>
+                <button type="button" class="btn btn-light" id="powbtn" onclick="calScreen.innerHTML+='^'">x<sup>y</sup></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="7" onclick="screen.innerHTML+=id"><b>7</b></button>
+                <button type="button" class="btn btn-light" id="7" onclick="calScreen.innerHTML+=id"><b>7</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="8" onclick="screen.innerHTML+=id"><b>8</b></button>
+                <button type="button" class="btn btn-light" id="8" onclick="calScreen.innerHTML+=id"><b>8</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="9" onclick="screen.innerHTML+=id"><b>9</b></button>
+                <button type="button" class="btn btn-light" id="9" onclick="calScreen.innerHTML+=id"><b>9</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="mulbtn" onclick="screen.innerHTML+='*'">&#xd7;</button>
+                <button type="button" class="btn btn-light" id="mulbtn" onclick="calScreen.innerHTML+='*'">&#xd7;</button>
             </div>
         </div>
 
@@ -190,16 +190,16 @@
                 <button type="button" class="btn btn-light" onclick="tenPower()">10<sup>x</sup></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="4" onclick="screen.innerHTML+=id"><b>4</b></button>
+                <button type="button" class="btn btn-light" id="4" onclick="calScreen.innerHTML+=id"><b>4</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="5" onclick="screen.innerHTML+=id"><b>5</b></button>
+                <button type="button" class="btn btn-light" id="5" onclick="calScreen.innerHTML+=id"><b>5</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="6" onclick="screen.innerHTML+=id"><b>6</b></button>
+                <button type="button" class="btn btn-light" id="6" onclick="calScreen.innerHTML+=id"><b>6</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="subtn" onclick="screen.innerHTML+='-'">&minus;</button>
+                <button type="button" class="btn btn-light" id="subtn" onclick="calScreen.innerHTML+='-'">&minus;</button>
             </div>
         </div>
 
@@ -211,16 +211,16 @@
                 <button type="button" class="btn btn-light" onclick="log()">log</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="1" onclick="screen.innerHTML+=id"><b>1</b></button>
+                <button type="button" class="btn btn-light" id="1" onclick="calScreen.innerHTML+=id"><b>1</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="2" onclick="screen.innerHTML+=id"><b>2</b></button>
+                <button type="button" class="btn btn-light" id="2" onclick="calScreen.innerHTML+=id"><b>2</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="3" onclick="screen.innerHTML+=id"><b>3</b></button>
+                <button type="button" class="btn btn-light" id="3" onclick="calScreen.innerHTML+=id"><b>3</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" onclick="screen.innerHTML+='+'">+</button>
+                <button type="button" class="btn btn-light" onclick="calScreen.innerHTML+='+'">+</button>
             </div>
         </div>
 
@@ -234,10 +234,10 @@
                 <button type="button" class="btn btn-light" onclick="plusMinus()">+/-</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="0" onclick="screen.innerHTML+=id"><b>0</b></button>
+                <button type="button" class="btn btn-light" id="0" onclick="calScreen.innerHTML+=id"><b>0</b></button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-light" id="dotbtn" onclick="screen.innerHTML+='.'">.</button>
+                <button type="button" class="btn btn-light" id="dotbtn" onclick="calScreen.innerHTML+='.'">.</button>
             </div>
             <div class="col" style="background-color: rgba(162, 204, 232, 0.96)">
                 <button type="button" class="btn" id="equalto" onclick=calculate()>=</button>
