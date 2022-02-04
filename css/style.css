@@ -1,0 +1,37 @@
+.container{
+    width: 30%;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 3px rgb(0 0 0 / 10%);
+    
+    
+}
+
+
+.outputContainer{
+    height: 3em;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+}
+.row{
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+}
+.btn{
+    width: 100%;
+}
+.btn:hover{
+    background-color: #e7e7e7;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.col{
+    padding: 1px;
+}
+#dropdownMenuButton{
+    font-size: 13px;
+}
